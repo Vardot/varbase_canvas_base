@@ -1,6 +1,6 @@
 {
   "name": "drupal/varbase_canvas_base",
-  "description": "A foundational recipe for Drupal Canvas in Varbase. Installs Canvas Override and grants the Drupal Canvas page, component library, pattern, template and global region permissions to the Varbase roles.",
+  "description": "A foundational recipe for Drupal Canvas in Varbase. Installs Drupal Canvas and the Canvas Override module for per-content Canvas layout editing.",
   "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe", "Canvas", "Drupal Canvas", "Page builder"],
   "type": "drupal-recipe",
   "notification-url": "https://packages.drupal.org/8/downloads",

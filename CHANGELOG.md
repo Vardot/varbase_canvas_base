@@ -7,12 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Initialize the Varbase Canvas Base recipe. It installs `canvas` and
-  `canvas_override`, and grants the Drupal Canvas page, component library,
-  pattern, template and global region permissions to the `content_editor`,
-  `content_admin` and `site_admin` roles.
-- Take over the `canvas_override` install, the `drupal/canvas_override`
-  requirement and the Canvas permission grants that `varbase_content_base`
-  carried, so the Canvas setup lives in one recipe.
+- Initialize the Varbase Canvas Base recipe. It installs the `canvas` and
+  `canvas_override` modules, and nothing else.
+- Take over the `canvas_override` install and the `drupal/canvas_override`
+  requirement that `varbase_content_base` carried.
+
+### Notes
+- This recipe grants no permissions. The Drupal Canvas page and component library
+  grants stay in `varbase_content_base`, where the content roles they belong to
+  are defined, so the Vardot site templates that apply that recipe directly keep
+  their Canvas permissions unchanged.
 
 [Unreleased]: https://git.drupalcode.org/project/varbase_canvas_base/-/commits/1.0.x
