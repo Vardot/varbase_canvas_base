@@ -1,0 +1,32 @@
+name: Varbase Canvas Base
+description: A foundational recipe for Drupal Canvas in Varbase. Installs Canvas Override and grants the Drupal Canvas page, component library, pattern, template and global region permissions to the Varbase roles.
+type: Varbase Canvas
+install:
+  - canvas
+  - canvas_override
+config:
+  strict: false
+  actions:
+    user.role.content_editor:
+      grantPermissions:
+        - 'create canvas_page'
+        - 'edit canvas_page'
+    user.role.content_admin:
+      grantPermissions:
+        - 'administer folders'
+        - 'administer patterns'
+        - 'create canvas_page'
+        - 'edit canvas_page'
+        - 'publish auto-saves'
+    user.role.site_admin:
+      grantPermissions:
+        - 'administer components'
+        - 'administer content templates'
+        - 'administer folders'
+        - 'administer page template'
+        - 'administer patterns'
+        - 'create canvas_page'
+        - 'delete canvas_page'
+        - 'edit canvas_page'
+        - 'edit canvas global regions'
+        - 'publish auto-saves'
