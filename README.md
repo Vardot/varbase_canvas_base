@@ -2,7 +2,7 @@
 
 # Varbase Canvas Base
 [![pipeline status](https://git.drupalcode.org/project/varbase_canvas_base/badges/1.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_canvas_base/-/pipelines)
-[![Varbase Canvas Base](https://img.shields.io/badge/Varbase%20Canvas%20Base-1.0.x--dev-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_canvas_base/-/pipelines?ref=1.0.x)
+[![Varbase Canvas Base](https://img.shields.io/badge/Varbase%20Canvas%20Base-1.0.0--alpha1-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_canvas_base/-/pipelines?ref=1.0.0-alpha1)
 [![Automated Functional Testing](https://git.drupalcode.org/project/varbase_project/badges/11.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_project/-/pipelines)
 
 A foundational recipe for Drupal Canvas in Varbase. It owns the Drupal Canvas
