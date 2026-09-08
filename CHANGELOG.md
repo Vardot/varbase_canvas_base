@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-09-08
+### Fixed
+- Require the released Canvas Override 1.0.0 instead of the dev branch
+  ([#3621562](https://www.drupal.org/i/3621562)).
+### Changed
+- Update the version badge to `1.0.1` in `README.md`.
+
 ## [1.0.0] - 2026-09-06
 ### Changed
 - Set the recipe version to 1.0.0 for the release.
@@ -29,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   are defined, so the Vardot site templates that apply that recipe directly keep
   their Canvas permissions unchanged.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_canvas_base/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_canvas_base/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_canvas_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_canvas_base/-/compare/1.0.0-alpha1...1.0.0
 [1.0.0-alpha1]: https://git.drupalcode.org/project/varbase_canvas_base/-/commits/1.0.0-alpha1
